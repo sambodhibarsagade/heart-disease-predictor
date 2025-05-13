@@ -3,7 +3,7 @@
 
 A Machine Learning web application that predicts the risk of heart disease based on user inputs such as age, cholesterol, and blood pressure.
 
----
+
 
 ## 📚 Table of Contents
 - [Introduction](#introduction)
@@ -16,14 +16,14 @@ A Machine Learning web application that predicts the risk of heart disease based
 - [Acknowledgments](#acknowledgments)
 - [Connect with Me](#connect-with-me)
 
----
 
-## 🩺 Introduction
+
+##  Introduction
 Cardiovascular diseases are a leading global health concern. This web app predicts heart disease risk using trained ML models. It demonstrates real-world use of ML in healthcare through a user-friendly interface.
 
----
 
-## 🚀 Key Features
+
+##  Key Features
 - **Dual ML Models:**
   - **Decision Tree**: Fast, interpretable predictions.
   - **K-Nearest Neighbors (KNN)**: Predictions based on similarity.
@@ -31,9 +31,9 @@ Cardiovascular diseases are a leading global health concern. This web app predic
 - **Real-Time Results**: Displays prediction and confidence level.
 - **Mobile Friendly**: Works on any device.
 
----
 
-## 🔧 Technologies Used
+
+##  Technologies Used
 
 ### ML Models
 - **Decision Tree** (Scikit-learn)
@@ -71,7 +71,7 @@ Trained on UCI Heart Disease dataset with these features:
 | thal       | Thalassemia (1 = Normal, 2/3 = Defect)     |
 | target     | 0 = No disease, 1 = Risk present           |
 
----
+
 
 ## ⚙️ How It Works
 
