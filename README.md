@@ -132,4 +132,4 @@ Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
 
 Connect with Me
   Email: sambodhibarsagade@gmail.com
-  LinkedIn: [Your LinkedIn URL]
+  LinkedIn: https://www.linkedin.com/in/sambodhi-barsagade
