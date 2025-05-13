@@ -3,6 +3,9 @@
 
 A Machine Learning web application that predicts the risk of heart disease based on user inputs such as age, cholesterol, and blood pressure.
 
+![image](https://github.com/user-attachments/assets/0699236d-d6e6-4124-b77b-0fb089522fdd)
+
+
 
 
 ## 📚 Table of Contents
