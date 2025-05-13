@@ -122,10 +122,11 @@ Trained on UCI Heart Disease dataset with these features:
 
 
 
-# Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
+ 
+Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
 
 
 
-# Connect with Me
+Connect with Me
   Email: sambodhibarsagade@gmail.com
   LinkedIn: [Your LinkedIn URL]
