@@ -84,18 +84,15 @@ Trained on UCI Heart Disease dataset with these features:
 2. **Preprocessing**: Input is scaled with `StandardScaler`.
    scaled_input = scaler.transform([user_input])
 
-Prediction:
+# Prediction:
 
-Decision Tree and KNN models both make predictions.
+  Decision Tree and KNN models both make predictions.
+  Higher confidence model is selected for final display.
+  Output: Prediction and advice are shown on a results page.
 
-Higher confidence model is selected for final display.
-
-Output: Prediction and advice are shown on a results page.
-
-Installation
+# Installation
 Prerequisites:
 Python 3.8+
-
 
 Steps:
 # 1. Clone the repository
@@ -117,12 +114,11 @@ http://127.0.0.1:5000
 📄 License
 This project is licensed under the MIT License.
 
-🙏 Acknowledgments
-UCI Machine Learning Repository for the dataset
+# Acknowledgments
+  UCI Machine Learning Repository for the dataset
 
-Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
+# Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
 
-📬 Connect with Me
+# Connect with Me
 Email: sambodhibarsagade@gmail.com
-
 LinkedIn: [Your LinkedIn URL]
