@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Disease Predictor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Heart Disease Prediction</h1>
+    </header>
+
+    <div class="container">
+        <form method="POST" action="/predict">
+            <label for="age">Age:</label>
+            <input type="number" name="age" id="age" required>
+
+            <label for="sex">Sex (0 = Female, 1 = Male):</label>
+            <select name="sex" id="sex" required>
+                <option value="0">Female</option>
+                <option value="1">Male</option>
+            </select>
+
+            <label for="cp">Chest Pain Type (0–3):</label>
+            <input type="number" name="cp" id="cp" min="0" max="3" required>
+
+            <label for="trestbps">Resting Blood Pressure:</label>
+            <input type="number" name="trestbps" id="trestbps" required>
+
+            <label for="chol">Cholesterol:</label>
+            <input type="number" name="chol" id="chol" required>
+
+            <label for="fbs">Fasting Blood Sugar > 120 mg/dl (1 = True; 0 = False):</label>
+            <select name="fbs" id="fbs" required>
+                <option value="0">False</option>
+                <option value="1">True</option>
+            </select>
+
+            <label for="restecg">Resting ECG results (0–2):</label>
+            <input type="number" name="restecg" id="restecg" min="0" max="2" required>
+
+            <label for="thalach">Maximum Heart Rate Achieved:</label>
+            <input type="number" name="thalach" id="thalach" required>
+
+            <label for="exang">Exercise Induced Angina (1 = Yes; 0 = No):</label>
+            <select name="exang" id="exang" required>
+                <option value="0">No</option>
+                <option value="1">Yes</option>
+            </select>
+
+            <label for="oldpeak">ST Depression:</label>
+            <input type="number" name="oldpeak" id="oldpeak" step="any" required>
+
+            <label for="slope">Slope (0–2):</label>
+            <input type="number" name="slope" id="slope" min="0" max="2" required>
+
+            <label for="ca">Number of Major Vessels (0–3):</label>
+            <input type="number" name="ca" id="ca" min="0" max="3" required>
+
+            <label for="thal">Thalassemia (1 = Normal, 2 = Fixed Defect, 3 = Reversible Defect):</label>
+            <input type="number" name="thal" id="thal" min="1" max="3" required>
+
+            <button type="submit">Predict</button>
+        </form>
+
+       {% if prediction_text %}
+    {{ prediction_text|safe }}
+{% endif %}
+
+    </div>
+</body>
+</html>
