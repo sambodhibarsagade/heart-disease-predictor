@@ -78,7 +78,7 @@ Trained on UCI Heart Disease dataset with these features:
 
 
 
-## ⚙️ How It Works
+##  How It Works
 
 1. **User Input**: Fill out the health form.
 2. **Preprocessing**: Input is scaled with `StandardScaler`.
@@ -91,34 +91,41 @@ Trained on UCI Heart Disease dataset with these features:
   Output: Prediction and advice are shown on a results page.
 
 # Installation
-Prerequisites:
-Python 3.8+
+    Prerequisites:
+        Python 3.8+
 
-Steps:
+# STEPS:
+
 # 1. Clone the repository
-git clone https://github.com/yourusername/heart-disease-predictor.git
-cd heart-disease-predictor
+     git clone https://github.com/yourusername/heart-disease-predictor.git
+     cd heart-disease-predictor
 
 # 2. Create virtual environment
-python -m venv venv
-source venv/bin/activate   # Windows: venv\Scripts\activate
+     python -m venv venv
+     source venv/bin/activate   # Windows: venv\Scripts\activate
 
 # 3. Install dependencies
-pip install -r requirements.txt
+     pip install -r requirements.txt
 
 # 4. Run the app
-python app.py
+     python app.py
 
 # 5. Open in browser
-http://127.0.0.1:5000
-📄 License
-This project is licensed under the MIT License.
+    http://127.0.0.1:5000
+   📄 License
+       This project is licensed under the MIT License.
+
+
 
 # Acknowledgments
   UCI Machine Learning Repository for the dataset
 
+
+
 # Inspired by healthcare ML tutorials from Kaggle and freeCodeCamp
 
+
+
 # Connect with Me
-Email: sambodhibarsagade@gmail.com
-LinkedIn: [Your LinkedIn URL]
+  Email: sambodhibarsagade@gmail.com
+  LinkedIn: [Your LinkedIn URL]
